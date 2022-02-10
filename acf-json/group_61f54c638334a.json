@@ -1,0 +1,208 @@
+{
+    "key": "group_61f54c638334a",
+    "title": "Footer Options",
+    "fields": [
+        {
+            "key": "field_61f54d26e19a8",
+            "label": "Footer About",
+            "name": "footer_about",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61f54d6ae19a9",
+                    "label": "Footer Logo",
+                    "name": "footer_logo",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_61f54e4ce19ab",
+                    "label": "Footer Description",
+                    "name": "footer_description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_61f54ee3e19ad",
+                    "label": "Footer Socials",
+                    "name": "footer_socials",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_61f54f3fe19ae",
+                            "label": "Footer Social URl",
+                            "name": "footer_social_url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "0",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_61f55121e19af",
+                            "label": "Footer Social Icon",
+                            "name": "footer_social_icon",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "-3",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "fab fa-facebook-square": "Facebook",
+                                "fab fa-twitter-square": "Twitter",
+                                "fab fa-linkedin": "Linkedin",
+                                "fab fa-pinterest-square": "Pinterest"
+                            },
+                            "default_value": false,
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_61f586e9d749b",
+            "label": "Footer Contact",
+            "name": "footer_contact",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_61f5888ed749c",
+                    "label": "Footer Contact List",
+                    "name": "footer_contact_list",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_61f588bfd749d",
+            "label": "Footer Copyright",
+            "name": "footer_copyright",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1643882684
+}
